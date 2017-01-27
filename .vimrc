@@ -94,4 +94,4 @@ nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>4jwf>a
 " - Take over the world!
 "  (with much fewer keystrokes)
 
-
+:imap jj <Esc>
