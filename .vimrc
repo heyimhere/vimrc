@@ -1,6 +1,8 @@
 " Nice to have
 syntax on
 
+set shell=/bin/bash
+
 " show statusbar
 set laststatus=2
 
@@ -20,6 +22,7 @@ call vundle#begin()
 Plugin 'Vundlevim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
+Plugin 'surround.vim'
 
 call vundle#end()
 filetype plugin indent on
