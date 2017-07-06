@@ -23,6 +23,7 @@ Plugin 'Vundlevim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'surround.vim'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
@@ -30,7 +31,11 @@ filetype plugin indent on
 set number " show line numbers
 set incsearch " search as characters are enter
 set hlsearch " highlight matches 
+
 let NERDTreeShowHidden=1
+let mapleader = ","
+nmap <leader>ne :NERDTree<cr>
+
 "FINDING FILES:
 
 "Search down into subfolders
