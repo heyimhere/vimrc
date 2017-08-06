@@ -24,6 +24,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'surround.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'Valloric/MatchTagAlways'
 
 call vundle#end()
 filetype plugin indent on
