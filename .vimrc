@@ -26,6 +26,7 @@ Plugin 'surround.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Valloric/MatchTagAlways'
+Plugin 'Yggdroot/indentLine'
 
 call vundle#end()
 filetype plugin indent on
