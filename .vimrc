@@ -106,3 +106,5 @@ nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>4jwf>a
 "  (with much fewer keystrokes)
 
 :imap jj <Esc>
+
+let g:mta_filetypes = { 'html':1, 'xhtml':1, 'xml':1, 'php':1, 'ejs':1, 'javascript.jsx':1}
