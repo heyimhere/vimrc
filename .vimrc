@@ -99,7 +99,7 @@ let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 "SNIPPETS:
 
 "Read an empty HTML template and move cursor to title
-nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>4jwf>a
+nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>6jwf>a
 
 "NOW WE CAN:
 " - Take over the world!
