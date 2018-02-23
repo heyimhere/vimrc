@@ -1,5 +1,5 @@
 " Nice to have
-syntax on
+syntax enable
 
 set shell=/bin/bash
 
@@ -27,9 +27,14 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Valloric/MatchTagAlways'
 Plugin 'Yggdroot/indentLine'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 filetype plugin indent on
+
+let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
 
 set number " show line numbers
 set incsearch " search as characters are enter
@@ -106,5 +111,7 @@ nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>6jwf>a
 "  (with much fewer keystrokes)
 
 :imap jj <Esc>
+
+set viminfo='1000,f1,<500
 
 let g:mta_filetypes = { 'html':1, 'xhtml':1, 'xml':1, 'php':1, 'ejs':1, 'javascript.jsx':1}
