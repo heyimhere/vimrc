@@ -129,3 +129,6 @@ autocmd QuickFixCmdPost    l* nested lwindow
 "Settings for pretty-templates
 autocmd FileType typescript JsPreTmpl
 autocmd FileType typescript syn clear foldBraces
+
+"Toggle on and off if you want transparent background on Vim
+"hi Normal guibg=NONE ctermbg=NONE
