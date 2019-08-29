@@ -29,6 +29,9 @@ Plugin 'Valloric/MatchTagAlways'
 Plugin 'Yggdroot/indentLine'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'Quramy/vim-js-pretty-template'
+Plugin 'Shougo/vimproc.vim'
+Plugin 'jiangmiao/auto-pairs'
 
 call vundle#end()
 filetype plugin indent on
@@ -117,7 +120,12 @@ set viminfo='1000,f1,<500
 
 let g:mta_filetypes = { 'html':1, 'xhtml':1, 'xml':1, 'php':1, 'ejs':1, 'javascript.jsx':1}
 
+"Settings for typescript error loggin
 let g:typescript_compiler_binary = 'tsc'
 let g:typescript_compiler_options = ''
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
+
+"Settings for pretty-templates
+autocmd FileType typescript JsPreTmpl
+autocmd FileType typescript syn clear foldBraces
